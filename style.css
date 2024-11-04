@@ -117,7 +117,7 @@ a{
 
     main{
         padding-top: 10px;
-        padding-right: 30px;
+        padding:30px;
         font-size: 18px;
         font-family: 'Libre Baskerville', sans-serif ;
         line-height: 1.8rem;
@@ -128,8 +128,8 @@ a{
     main h2, .mapa{
         font-size: 20px;
         color: rgb(170, 165, 165);
-        padding-top: 10px;
-        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
     }
     
      div img{
@@ -144,6 +144,7 @@ a{
         font-family: 'kaisei decol', sans-serif;
         font-weight: bold;
         color: rgb(170, 165, 165);
+        text-align: center;
     
     }
     
@@ -156,6 +157,7 @@ a{
         padding-top: 20px;
         cursor:context-menu;   
         text-align: justify;
+        padding: 30px;
     
     }
     
@@ -171,6 +173,7 @@ a{
         color: rgb(170, 165, 165);
         padding-top: 10px;
         padding-bottom: 10px;
+    
     }
     
     .causa{
@@ -184,6 +187,7 @@ a{
         font-size: 16px;
         font-family: 'Libre Baskerville', sans-serif ;
         line-height: 1.8rem;
+        padding: 30px;
     }
     
     article section{
@@ -218,6 +222,7 @@ a{
         font-family: 'kaisei decol', sans-serif;
         font-weight: bold;
         color: rgb(170, 165, 165);
+        text-align: center;
     }
     
     .list ul li{
@@ -228,6 +233,7 @@ a{
         font-size: 16px;
         padding-top: 20px; 
         text-align: justify;
+        padding: 30px;
     }
     
     
@@ -262,14 +268,14 @@ a{
     }
 
     @media(max-width:700px){
-
+        
         body{
-            
-       
+            background-color: #462c2c;
         }
     
         html{
             cursor: pointer;
+            color: #c4bdbd;
         }
 
         .container{
@@ -423,6 +429,8 @@ a{
     footer ul li:hover{
         color: rgb(221, 221, 233);
         cursor: pointer;
+        transition: 0.5s;
+        
     
     }   
 }
